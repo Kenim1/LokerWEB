@@ -1,182 +1,97 @@
-<!-- index.html (Home) --><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Job Vacancies</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-    }
-  </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Job Vacancies</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="profile.html">Profile</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="container">
-    <h1>Job Vacancies</h1>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-<div class="card-body">
-    <h5 class="card-title">Software Engineer</h5>
-    <p class="card-text">Mengembangkan dan memelihara perangkat lunak.</p>
-    <a href="https://wa.me/6281226590473?text=Halo,%20saya%20ingin%20melamar%20posisi%20Software%20Engineer." class="btn btn-primary">Apply Now</a>
-</div>          
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-    <h5 class="card-title">Marketing Specialist</h5>
-    <p class="card-text">Merancang strategi untuk meningkatkan pemasaran.</p>
-    <a href="https://wa.me/6281226590473?text=Halo,%20saya%20ingin%20melamar%20posisi%20Marketing%20Specialist." class="btn btn-primary">Apply Now</a>
-</div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-        <div class="card-body">
-    <h5 class="card-title">Graphic Designer</h5>
-    <p class="card-text">Membuat desain visual untuk komunikasi.</p>
-    <a href="https://wa.me/6281226590473?text=Halo,%20saya%20ingin%20melamar%20posisi%20Graphic%20Designer." class="btn btn-primary">Apply Now</a>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html><!-- index.html (Home) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Vacancies</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
             min-height: 100vh;
         }
-
         .hero {
             background: linear-gradient(45deg, #25D366, #128C7E);
             color: white;
             padding: 100px 20px;
             text-align: center;
         }
-
-        .hero h1 {
-            font-size: 3rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .card {
-            border: none;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        .card-body {
-            padding: 20px;
-        }
-
-        .card-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .card-text {
-            font-size: 1rem;
-            color: #555;
-        }
-
-        .btn-primary {
-            background: linear-gradient(45deg, #25D366, #128C7E);
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 1rem;
-            color: white;
-            transition: background 0.3s;
-        }
-
-        .btn-primary:hover {
-            background: linear-gradient(45deg, #128C7E, #25D366);
-        }
-
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-
-        footer p {
-            margin: 0;
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
         }
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Job Vacancies</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <section class="hero">
         <div class="container">
             <h1>Join Our Team</h1>
             <p>We are looking for talented individuals to join our growing team. Explore our job openings and apply today!</p>
         </div>
     </section>
-
     <div class="container mt-5">
+        <h1>Job Vacancies</h1>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Engineer</h5>
+                        <p class="card-text">Mengembangkan dan memelihara perangkat lunak.</p>
+                        <a href="https://wa.me/6281226590473?text=Halo,%20saya%20ingin%20melamar%20posisi%20Software%20Engineer." class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing Specialist</h5>
+                        <p class="card-text">Merancang strategi untuk meningkatkan pemasaran.</p>
+                        <a href="https://wa.me/6281226590473?text=Halo,%20saya%20ingin%20melamar%20posisi%20Marketing%20Specialist." class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Graphic Designer</h5>
+                        <p class="card-text">Membuat desain visual untuk komunikasi.</p>
+                        <a href="https://wa.me/6281226590473?text=Halo,%20saya%20ingin%20melamar%20posisi%20Graphic%20Designer." class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
