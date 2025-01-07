@@ -1,2 +1,2 @@
-# LokerWEB
-uas matkul webprog STI202303724
+UAS WEB PROG
+STI202303724
